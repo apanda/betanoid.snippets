@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Inc//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PayloadContent</key>
+        <dict>
+            <key>URL</key>
+            <string>http://192.168.1.105:5000/</string>
+            <key>DeviceAttributes</key>
+            <array>
+                <string>UDID</string>
+                <string>IMEI</string>
+                <string>ICCID</string>
+                <string>VERSION</string>
+                <string>PRODUCT</string>
+                <string>MODEL</string>
+                <string>DEVICE_NAME</string>
+            </array>
+            <key>Challenge</key>
+            <string>Tester Enrolment Challenge</string>
+        </dict>
+    	<key>PayloadDisplayName</key>
+    	<string>BetaNoidTest</string>
+        <key>PayloadOrganization</key>
+        <string>betanoid.com</string>
+        <key>TestFlight Device Registration</key>
+        <string>Profile Service</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadUUID</key>
+        <string>BA5456BB-9E2E-45F3-AFBE-C0378D0653C4</string>
+        <key>PayloadIdentifier</key>
+        <string>com.betanoid.test</string>
+        <key>PayloadDescription</key>
+        <string>Links your device to your TestFlight account.  Developers whose invites you have accepted require this information to send you betas.  This does not alter any device settings.</string>
+        <key>PayloadType</key>
+        <string>Profile Service</string>
+    </dict>
+</plist>
