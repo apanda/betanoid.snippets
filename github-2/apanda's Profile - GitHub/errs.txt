@@ -1,0 +1,68 @@
+line 1 column 45 - Warning: missing <!DOCTYPE> declaration
+line 24 column 728 - Warning: replacing invalid character code 128
+line 33 column 431 - Warning: replacing invalid character code 134
+line 33 column 432 - Warning: replacing invalid character code 146
+line 118 column 1530 - Warning: replacing invalid character code 151
+line 118 column 1533 - Warning: replacing invalid character code 156
+line 118 column 1537 - Warning: replacing invalid character code 158
+line 118 column 1677 - Warning: replacing invalid character code 131
+line 118 column 1679 - Warning: discarding invalid character code 129
+line 118 column 1680 - Warning: discarding invalid character code 129
+line 118 column 1749 - Warning: replacing invalid character code 150
+line 118 column 1750 - Warning: replacing invalid character code 135
+line 119 column 280 - Warning: replacing invalid character code 140
+line 119 column 811 - Warning: replacing invalid character code 151
+line 119 column 814 - Warning: replacing invalid character code 156
+line 119 column 818 - Warning: replacing invalid character code 158
+line 119 column 1186 - Warning: replacing invalid character code 131
+line 119 column 1188 - Warning: discarding invalid character code 129
+line 119 column 1189 - Warning: discarding invalid character code 129
+line 119 column 1287 - Warning: replacing invalid character code 128
+line 119 column 1291 - Warning: discarding invalid character code 129
+line 119 column 1424 - Warning: replacing invalid character code 150
+line 119 column 1425 - Warning: replacing invalid character code 135
+line 171 column 113 - Warning: replacing invalid character code 134
+line 171 column 114 - Warning: discarding invalid character code 144
+line 173 column 55 - Warning: replacing invalid character code 134
+line 173 column 56 - Warning: replacing invalid character code 146
+line 175 column 55 - Warning: replacing invalid character code 134
+line 175 column 56 - Warning: replacing invalid character code 145
+line 177 column 55 - Warning: replacing invalid character code 134
+line 177 column 56 - Warning: replacing invalid character code 147
+line 181 column 121 - Warning: replacing invalid character code 134
+line 181 column 122 - Warning: discarding invalid character code 144
+line 183 column 61 - Warning: replacing invalid character code 134
+line 183 column 62 - Warning: replacing invalid character code 146
+line 185 column 61 - Warning: replacing invalid character code 134
+line 185 column 62 - Warning: replacing invalid character code 145
+line 187 column 61 - Warning: replacing invalid character code 134
+line 187 column 62 - Warning: replacing invalid character code 147
+line 199 column 162 - Warning: <embed> is not approved by W3C
+line 17 column 28 - Warning: <script> proprietary attribute "async"
+line 24 column 600 - Warning: <input> attribute "type" has invalid value "search"
+line 24 column 600 - Warning: <input> proprietary attribute "results"
+line 24 column 600 - Warning: <input> proprietary attribute "placeholder"
+line 24 column 600 - Warning: <input> proprietary attribute "autocomplete"
+line 34 column 546 - Warning: <input> attribute "type" has invalid value "search"
+line 34 column 546 - Warning: <input> proprietary attribute "placeholder"
+line 38 column 28 - Warning: <div> proprietary attribute "rel"
+line 40 column 28 - Warning: <div> proprietary attribute "rel"
+line 40 column 98 - Warning: <div> anchor "primer_text" already defined
+line 42 column 28 - Warning: <div> proprietary attribute "rel"
+line 42 column 107 - Warning: <div> anchor "primer_text" already defined
+line 44 column 28 - Warning: <div> proprietary attribute "rel"
+line 44 column 110 - Warning: <div> anchor "primer_text" already defined
+line 118 column 846 - Warning: <span> ID "_rrt" uses XML ID syntax
+line 199 column 535 - Warning: <object> ID "_kmfc" uses XML ID syntax
+Info: Document content looks like HTML Proprietary
+56 warnings, 0 errors were found!
+
+Character codes 128 to 159 (U+0080 to U+009F) are not allowed in HTML;
+even if they were, they would likely be unprintable control characters.
+Tidy assumed you wanted to refer to a character with the same byte value in the 
+specified encoding and replaced that reference with the Unicode equivalent.
+
+To learn more about HTML Tidy see http://tidy.sourceforge.net
+Please send bug reports to html-tidy@w3.org
+HTML and CSS specifications are available from http://www.w3.org/
+Lobby your company to join W3C, see http://www.w3.org/Consortium
