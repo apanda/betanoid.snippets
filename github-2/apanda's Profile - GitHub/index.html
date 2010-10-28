@@ -280,14 +280,25 @@
         <!-- [panda] the main area -->
         <div class="first">
           <!-- [panda] the left column -->
-          <h2><span class="repo-filter"><input type="search"
-          placeholder="Filter repositories..." class=
-          "placeholder" /></span> Public Repositories
-          <em>(4)</em></h2>
+          <h2>
+               <!-- [panda] Public Repositories (4) Filter Repositories -->
+               <span class="repo-filter">
+                   <!-- [panda] the search box (Filter Repositories) -->
+                   <input type="search"
+                  placeholder="Filter repositories..." class=
+                  "placeholder" />
+              </span> 
+              Public Repositories
+              <em>(4)</em>
+          </h2>
+
 
           <ul class="repositories">
+            <!-- [panda] the list of all repositories -->
             <li class="public fork">
+              <!-- [panda] the thing for three20, the public, fork thing helps get the right icon -->
               <ul class="repo-stats">
+                <!-- [panda] language, number of watchers, number of forks -->
                 <li>Objective-C</li>
 
                 <li class="watchers"><a href=
@@ -297,13 +308,16 @@
                 <li class="forks"><a href="/apanda/three20/network"
                 title="Forks">474</a></li>
               </ul>
-
+              
+              <!-- [panda] the title itself -->
               <h3><a href="/apanda/three20">three20</a></h3>
 
+              <!-- [panda] shows the fork icon and the forked from text -->
               <p class="fork-flag">Forked from <a href=
               "/facebook/three20">facebook/three20</a></p>
 
               <div class="body">
+                <!-- [panda] The main body, this is like the description, last updated and the graph -->
                 <p class="description">Three20 is an Objective-C
                 library for iPhone developers</p>
 
@@ -324,6 +338,7 @@
             </li>
 
             <li class="public">
+              <!-- [panda] this is just a public blog named apanda, everything else is the same as before -->
               <ul class="repo-stats">
                 <li class="watchers"><a href=
                 "/apanda/apanda/watchers" title=
@@ -429,20 +444,29 @@
         </div><!-- /.first -->
 
         <div class="last">
-          <h2>Public Activity <a href="/apanda.atom"><img alt=
-          "feed" src="images/icons/feed.png" /></a></h2>
+          <!-- [panda] The right column, it shows public activity -->
+          <h2>Public Activity 
+              <!-- [panda] rss logo -->
+              <a href="/apanda.atom"><img alt=
+              "feed" src="images/icons/feed.png" /></a>
+          </h2>
 
           <div class="news public_news">
+            <!-- [panda] list of public news articles -->
             <div class="alert push">
+              <!-- [panda] alert is a single alert, the push/create/... tells you what the news was about and gives you an icon -->
               <div class="body">
                 <div class="title">
+                  <!-- [panda] the top line, the title, for instance
+                  apanda pushed to master at apanda/three20 September 10, 2010 --> 
                   <a href="apanda">apanda</a> <span>pushed</span>
                   to master at <a href=
                   "http://github.com/apanda/three20/tree/master">apanda/three20</a>
                   <abbr class="relatize relatized" title=
                   "2010-09-10 00:07:14">September 10, 2010</abbr>
                 </div>
-
+                
+                <!-- [panda] the actual details -->
                 <div class="details">
                   <div class="commits">
                     <ul>
@@ -1627,6 +1651,7 @@
   </div>
 
   <div id="footer" class="clearfix">
+  <!-- [panda] the footer, it looks pretty standard -->
     <div class="site">
       <div class="sponsor">
         <a href="http://www.rackspace.com" class="logo"><img alt=
@@ -1674,6 +1699,7 @@
   </div><!-- /#footer --><!-- current locale:  -->
 
   <div class="locales">
+    <!-- [panda] the bottom of the page with lots of languages -->
     <div class="site">
       <ul class="choices clearfix limited-locales">
         <li><span class="current">English</span></li>
@@ -1774,6 +1800,7 @@
   </script>
 
   <div id="keyboard_shortcuts_pane" style="display:none">
+    <!-- [panda] the keyboard pane, hit ? on a page and this shows up -->
     <h2>Keyboard Shortcuts</h2>
 
     <div class="columns threecols">
